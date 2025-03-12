@@ -1,7 +1,5 @@
 # 3. Git LFS para gestión eficiente de archivos binarios
 
-Este documento explica el uso avanzado de **Git Large File Storage (LFS)**, una extensión de Git diseñada para manejar eficazmente archivos grandes o binarios en proyectos como los desarrollados en Unity.
-
 ## Índice
 
 - [¿Qué es Git LFS y por qué usarlo en Unity?](#qué-es-git-lfs-y-por-qué-usarlo-en-unity)
@@ -11,11 +9,15 @@ Este documento explica el uso avanzado de **Git Large File Storage (LFS)**, una 
 
 ## ¿Qué es Git LFS y por qué usarlo en Unity?
 
-Git no gestiona de forma eficiente archivos binarios grandes como modelos 3D, texturas, audios y vídeos, comunes en proyectos de Unity. Git LFS resuelve este problema almacenando estos archivos fuera del repositorio principal, facilitando su manejo y mejorando la velocidad del repositorio.
+Git no gestiona de forma eficiente archivos binarios grandes como modelos 3D, texturas, audios y vídeos, comunes en proyectos de Unity.
+
+La extensión Git LFS resuelve este problema almacenando estos archivos fuera del repositorio principal, facilitando su manejo y mejorando la velocidad del repositorio.
+
+Como regla general, se recomienda utilizar Git LFS para ficheros a partir de 10 MB aproximadamente, si bien hasta 100 MB es recomendable y a partir de 100 MB obligatorio.
+
+En proyectos con Unity, es muy frecuente que archivos binarios (texturas, audios, modelos 3D) superen estos tamaños, haciendo que Git LFS sea prácticamente obligatorio.
 
 ## Instalación y configuración de Git LFS
-
-Para usar Git LFS, primero se debe instalar y configurar:
 
 ### Instalación
 
@@ -76,4 +78,4 @@ Esto facilita enormemente el manejo gráfico de archivos grandes sin tener que u
 - Menor probabilidad de conflictos y corrupción en archivos binarios.
 - Mayor claridad en el historial de cambios.
 
-Integrar Git LFS mejora notablemente la experiencia al trabajar con archivos pesados y binarios en Unity, facilitando una colaboración efectiva y optimizando el rendimiento del repositorio.
+En resumen, integrar Git LFS mejora notablemente la experiencia al trabajar con archivos pesados y binarios en Unity, facilitando una colaboración efectiva y optimizando el rendimiento del repositorio.

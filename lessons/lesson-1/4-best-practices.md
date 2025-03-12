@@ -1,7 +1,5 @@
 # 4. Buenas prácticas y resolución avanzada de problemas
 
-Este documento detalla técnicas avanzadas y buenas prácticas recomendadas para mantener un flujo de trabajo eficiente, seguro y ordenado con Git, especialmente aplicables a proyectos desarrollados en Unity.
-
 ## Índice
 
 - [Comandos avanzados desde línea de comandos](#comandos-avanzados-desde-línea-de-comandos)
@@ -21,6 +19,21 @@ Conocer y utilizar comandos avanzados desde la consola permite mayor control y c
 - **git cherry-pick**: Aplicar cambios específicos desde un commit individual sin traer otros cambios indeseados.
   ```bash
   git cherry-pick <commit-hash>
+  ```
+
+- **git stash**: Guardar temporalmente cambios no committed para cambiar de rama o aplicar otros cambios.
+  ```bash
+  # Guardar cambios
+  git stash "Mensaje descriptivo"
+  
+  # Listar stashes
+  git stash list
+  
+  # Aplicar y eliminar el último stash
+  git stash pop
+  
+  # Solo aplicar sin eliminar un stash
+  git stash apply stash@{0}
   ```
 
 - **git revert**: Crear un nuevo commit que deshace los cambios introducidos en otro commit previo, útil para revertir errores rápidamente.

@@ -1,7 +1,5 @@
 # 1. Trabajo colaborativo avanzado con GitHub
 
-Este documento presenta estrategias avanzadas para optimizar el trabajo colaborativo utilizando GitHub como plataforma de control de versiones. El objetivo es mejorar significativamente la calidad del código y agilizar el proceso de desarrollo mediante pull requests y revisiones efectivas.
-
 ## Índice
 
 - [Flujos de trabajo avanzados con Git Flow](#flujos-de-trabajo-avanzados-con-git-flow)
@@ -37,17 +35,21 @@ git merge feature/new-functionality
 
 Las pull requests (PR) son el núcleo de la colaboración efectiva en GitHub. Algunas recomendaciones para maximizar su eficiencia son:
 
-- **PR pequeños y frecuentes**: facilita la revisión y reduce conflictos.
-- **Títulos claros y descriptivos**: ayudan a identificar rápidamente el propósito de los cambios.
-- **Descripción detallada**: incluir contexto, motivo de los cambios y referencias a tareas relacionadas.
+- **PR pequeños y frecuentes**: Facilita la revisión y reduce conflictos.
+- **Títulos claros y descriptivos**: Ayudan a identificar rápidamente el propósito de los cambios.
+- **Descripción detallada**: Incluir contexto, motivo de los cambios y referencias a tareas relacionadas.
 - **Etiquetas y asignaciones**: Usar etiquetas para categorizar los PR y asignar revisores adecuados.
 
 ![pull request](pull-request.png)
 
 ### Ejemplo de creación efectiva de PR:
 
-- **Título**: Añadir validación al formulario de registro
-- **Descripción**: Este PR añade validación a los campos del formulario de registro, resolviendo la tarea #24.
+- **Título**:
+
+      Añadir validación al formulario de registro
+- **Descripción**:
+
+      Este PR añade validación a los campos del formulario de registro, resolviendo la tarea #24
 
 ## Revisión avanzada de código
 
@@ -60,6 +62,6 @@ La revisión del código es crucial para mantener la calidad del proyecto. Algun
 
 ### Ejemplo de comentario útil en revisión:
 
-> "La lógica aquí funciona bien, pero se podría simplificar con un método auxiliar. ¿Qué te parece mover esto a una función separada para mejorar la legibilidad?"
-
-Aplicando estas prácticas avanzadas, el equipo podrá colaborar de manera más eficaz, manteniendo la calidad y claridad del código del proyecto.
+    La lógica aquí funciona bien, pero se podría simplificar con un método auxiliar.
+    
+    ¿Qué te parece mover esto a una función separada para mejorar la legibilidad?

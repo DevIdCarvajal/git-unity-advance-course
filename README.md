@@ -4,7 +4,7 @@
 
 Git es una herramienta esencial para el trabajo en equipo y la gestión eficaz del código fuente en proyectos de desarrollo de software.
 
-Sin embargo, su uso en entornos específicos como Unity puede presentar desafíos adicionales debido a la naturaleza de los archivos que maneja (escenas, prefabs, recursos gráficos), que pueden presentar conflictos y problemas específicos que requieren un manejo avanzado.
+Sin embargo, su uso en entornos específicos como Unity puede presentar desafíos adicionales debido a la naturaleza de los archivos que maneja (escenas, prefabs y recursos gráficos), que pueden presentar conflictos y problemas específicos que requieren un manejo avanzado.
 
 Este curso aborda estrategias avanzadas para resolver estos desafíos, optimizar el flujo de trabajo y aumentar significativamente la productividad del equipo.
 
@@ -26,16 +26,9 @@ Este curso aborda estrategias avanzadas para resolver estos desafíos, optimizar
 
 ### 2. Práctica y resolución de dudas
 
-- Ejercicios prácticos de aplicación real
-- Resolución de conflictos y casos reales
-- Resolución de dudas y problemas frecuentes
-
-## Materiales del curso
-
-- Presentación visual del curso
-- Ejemplos prácticos
-- Ejercicios propuestos y soluciones
-- Guías rápidas y recursos complementarios
+- Ejercicios prácticos
+- Resolución de conflictos
+- Dudas y otras cuestiones
 
 ## Recursos adicionales
 
@@ -47,3 +40,8 @@ Este curso aborda estrategias avanzadas para resolver estos desafíos, optimizar
 - [Git LFS](https://git-lfs.com/)
 - [Beyond Compare](https://www.scootersoftware.com/)
 - [KDiff3](http://kdiff3.sourceforge.net/)
+- [Meld](https://meldmerge.org/)
+
+## Licencia
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">Por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://davidcarvajalgarrido.com/">David Carvajal Garrido</a> licenciado bajo <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
